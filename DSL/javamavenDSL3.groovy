@@ -49,7 +49,7 @@ job('Java Maven App DSL 3') {
 job('Job test Hola Mundo') {
 	description('Aplicacion Hola Mundo de Prueba')
 	scm {
-		git('https://github.com/victorbrazquez/simple-java-maven-app.git', 'master') { node ->
+		git('https://github.com/victorbrazquez/simple-java-maven-app.git', 'main') { node ->
 		    node / gitConfigName('victorbrazquez')
 		    node / gitConfigEmail('vmbv21@gmail.com')
 		}
